@@ -41,5 +41,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="0yE-QB-JT3">
+            <objects>
+                <viewController id="6QS-mn-dqi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ffM-Ka-Tb1"/>
+                        <viewControllerLayoutGuide type="bottom" id="cjf-R3-bcW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CND-ZT-qWp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD3-9O-0Dl">
+                                <rect key="frame" x="79" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cog-gB-X1I">
+                                <rect key="frame" x="103" y="349" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cog-gB-X1I" firstAttribute="centerX" secondItem="CND-ZT-qWp" secondAttribute="centerX" id="XWL-Cy-Qa5"/>
+                            <constraint firstItem="xD3-9O-0Dl" firstAttribute="top" secondItem="ffM-Ka-Tb1" secondAttribute="bottom" constant="40" id="cJc-p5-LS1"/>
+                            <constraint firstItem="cog-gB-X1I" firstAttribute="top" secondItem="xD3-9O-0Dl" secondAttribute="bottom" constant="50" id="haO-qK-nP8"/>
+                            <constraint firstItem="xD3-9O-0Dl" firstAttribute="centerX" secondItem="CND-ZT-qWp" secondAttribute="centerX" id="rwL-Fw-dSs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qmm-Hh-mTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="43"/>
+        </scene>
     </scenes>
 </document>
